@@ -1,0 +1,194 @@
+html, body, div, span, applet, object, iframe,
+h2,   h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em,  ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, hgroup, 
+menu {
+	margin: 0;
+	padding: 0;
+	border: 0;  
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+}
+body {
+	line-height: 1;
+}
+
+
+nav{
+    border: 1px solid black;
+   height: 60px;
+   width: auto;
+   background-color: rgb(0, 0, 0);
+
+}
+
+
+.header{
+    background-color: rgb(0, 0, 0);
+    width: 960px;
+    height: auto;
+    margin: 5px auto;
+    position: relative;
+    color: white;
+}
+.header img{
+    height: 1.5rem;
+    padding: 0.66rem;
+    float: left;
+}
+
+.container img{
+    width: 100%;
+    height: 25rem;
+    object-fit: cover;
+ 
+}
+.container h3{
+    position: absolute;
+    top: 180px;
+    left: 210px;
+    background-color: black;
+    color: white;
+    width: 20rem;
+    font-family: Helvetica;
+    padding: 2rem 3rem; 
+    font-size: 1rem;
+    font-weight: bold;
+}
+.container span{
+    font-size: 2rem;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+.logotitle{
+    color: rgb(255, 255, 255);
+ padding: 17px;
+ font-size: 1rem;
+ font-family:  Helvetica;
+}
+.navbar{
+ border: 1px solid black;
+}
+ul{
+    list-style-type: none;
+   background-color:firebrick;
+    padding: 15px;
+   text-align: center;
+   position: sticky;
+   top:0;
+   margin-top: -3px; 
+
+}
+li{
+font-size: 15px;
+display: inline;
+margin: 51px;
+padding-top: 0.75rem;
+font-family:  Helvetica;
+
+}
+.active {
+    background-color: #4CAF50;
+    color: white;
+
+  }
+li a{
+    color: white;
+text-decoration: none;
+text-align: center;
+   
+}
+.image {
+ 
+    display: flex;
+    justify-content: center;
+}
+
+
+table{
+    align-self: center;
+    width: 65%;
+    margin-top: 10px;
+   
+
+}
+th{
+    padding: 1rem;
+    font-family:  Helvetica;
+ 
+}
+.image img{
+    height: auto;
+    border: 2px solid black;
+    font-family:  Helvetica;
+   
+   
+}
+.desc{
+
+    color: white;
+    background-color: black;
+    margin-top: -5px; 
+    padding: 10px;
+    margin-right: -4px;
+    font-family:  Helvetica;
+
+}
+
+
+footer{
+    width: auto;
+
+  color: white;
+  background-color: black;
+ text-align: center;
+ padding: 40px;
+ font-family:  Helvetica;
+}
+.desc1{
+
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+}
+.desc2{
+
+    color: white;
+    background-color: black;
+    margin-top: -5px; 
+    padding: 10px;
+    font-family:  Helvetica;
+}
+.desc3{
+
+    color: black;
+    background-color: rgb(255, 255, 255);
+    margin-top: -35px; 
+    padding: 10px;
+    font-family:  Helvetica;
+    border: 1px dotted black;
+
+}
+@media only screen and (max-width: 1024px) {
+  
+   ul{
+background-color: aqua;
+   }
+  .active{
+    visibility: show;
+   }
+   li{
+    visibility: hidden;
+   }
+}
+
+
+   
