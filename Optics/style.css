@@ -1,182 +1,182 @@
 
-body{
-margin: 0px;
-padding: 0px;
-font-family: Berlin Sans FB;
+/*body*/
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Berlin Sans FB;
 }
+
+/*header*/
 nav {
-margin: 0;
-display: block;
-position: relative;     
+    margin: 0;
+    display: block;
+    position: relative;     
 }
 .bg-img {
-background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
-height: 500px;
-background-position: center;
-background-size: cover;
-position: relative;
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
-.head{
-position: absolute;
-margin-top: 60px; 
-margin-left: 160px;
-font-family: Berlin Sans FB; 
+.head {
+    position: absolute;
+    margin-top: 60px; 
+    margin-left: 160px;
+    font-family: Berlin Sans FB; 
 }
 ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
-overflow: hidden;
-background-color: rgb(90, 195, 226);
-width: 1000px;    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(90, 195, 226);
+    width: 1000px;    
 }
 li {
-float: right;
-font-size: 15px;
+    float: right;
+    font-size: 15px;
 }
 li a {
-display: block;
-color: white;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
-li a:hover{
- background-color: rgb(13, 83, 104);
+li a:hover {
+    background-color: rgb(13, 83, 104);
 }
-ul img{
-margin-top: 12px;
-padding: 0 20px;
-width: 60px;
-}
-.title{
-position: absolute;
-margin-top: -44px;
-margin-left: 100px;
-font-size: 16px;
-color: white;
-padding: 14px;  
-cursor: pointer;     
-}
-.title:hover{
-background-color: rgb(13, 83, 104);
-}
-.title-title{
-position: absolute;
-margin-top: 230px; 
-margin-left: 620px;
-font-family: Berlin Sans FB;
-background-color: white;
-font-size: 3rem;
-padding: 30px;
-opacity: 0.5;
-box-shadow: 6px 6px  rgb(90, 195, 226);
-}
-.row {
-text-align: center;
-font-family: Berlin Sans FB;
-}
-.column {
-width: 15%;
-display: inline-block;
-margin: 10px;
-font-family: Berlin Sans FB;
-font-size: 20px;
-}
-.column img{
-padding: 30px;
-width: 50px;
-height: 60px;
-}
-.column1 {
-width: 15%;
-display: inline-block;
-margin: 10px;
-font-family: Berlin Sans FB;
-font-size: 20px;
-}
-.column1 img{
-padding: 30px;
-width: 60px;
-height: 40px;
-}
-.column2 {
-width: 15%;
-display: inline-block;
-margin: 10px;
-font-family: Berlin Sans FB;
-font-size: 20px;
-}
-.column2 img{
-padding: 30px;
-width: 65px;
-height: 45px;
-}
-.row1 {
-margin-left: 17%;
-}
-.row1:after {
-content: "";
-display: table;
-clear: both;
-}
-.column4 {
-float: left;
-width: 35%;
-padding: 10px;
-margin: 25px;
-}
-.column4 span{
-padding: 10px;
-padding-right: 100px;
-background-color: rgb(90, 195, 226);
-box-shadow: 2px 2px #afaeae;
-
-}
-footer{
-
-height: 60px;
-background-color: rgb(210, 237, 247);
-position: relative;
-margin-top: 5px;
-
-}
-footer img{
-     
-    margin-top: 20px;
-padding-left:  170px;
+ul img {
+    margin-top: 12px;
+    padding: 0 20px;
     width: 60px;
 }
-.footer-title
-{
+.menu {
+    visibility: hidden;
+}
 
+/*title-text*/
+.title {    
+    position: absolute;
+    margin-top: -44px;
+    margin-left: 100px;
+    font-size: 16px;
+    color: white;
+    padding: 14px;  
+    cursor: pointer;     
+}
+.title:hover {
+    background-color: rgb(13, 83, 104);
+}
+.title-title {
+    position: absolute;
+    margin-top: 230px; 
+    margin-left: 620px;
+    font-family: Berlin Sans FB;
+    background-color: white;
+    font-size: 3rem;
+    padding: 30px;
+    opacity: 0.5;
+    box-shadow: 6px 6px  rgb(90, 195, 226);
+}
+
+/*row-column*/
+.row {
+    text-align: center;
+    font-family: Berlin Sans FB;
+}
+.column {
+    width: 15%;
+    display: inline-block;
+    margin: 10px;
+    font-family: Berlin Sans FB;
+    font-size: 20px;
+}
+.column img {
+    padding: 30px;
+    width: 50px;
+    height: 60px;
+}
+.column1 {
+    width: 15%;
+    display: inline-block;
+    margin: 10px;
+    font-family: Berlin Sans FB;
+    font-size: 20px;
+}
+.column1 img {
+    padding: 30px;
+    width: 60px;
+    height: 40px;
+}
+.column2 {
+    width: 15%;
+    display: inline-block;
+    margin: 10px;
+    font-family: Berlin Sans FB;
+    font-size: 20px;
+}
+.column2 img {
+    padding: 30px;
+    width: 65px;
+    height: 45px;
+}
+.row1 {
+    margin-left: 17%;
+}
+.row1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.column4 {
+    float: left;
+    width: 35%;
+    padding: 10px;
+    margin: 25px;
+}
+.column4 span {
+    padding: 10px;
+    padding-right: 100px;
+    background-color: rgb(90, 195, 226);
+    box-shadow: 2px 2px #afaeae;
+}
+
+/*footer*/
+footer {
+    height: 60px;
+    background-color: rgb(210, 237, 247);
+    position: relative;
+    margin-top: 5px;
+}
+footer img { 
+    margin-top: 20px;
+    padding-left:  170px;
+    width: 60px;
+}
+.footer-title {
     position: absolute;
     top: 20px;
     left: 250px;
-}
-.menu
-{
-    visibility: hidden;
-  
- 
- 
-}
 
-@media only screen and (max-width: 1024px) {
-.head{
+/*media query*/
+}
+@media only screen and (max-width: 1024px) { /*if you resize the browser to 102xpx this css rule will appear*/
+.head {
     position: absolute;
     margin-top: 0px; 
     margin-left: 0px;
     font-family: Berlin Sans FB;
-    }
+}
 ul {
     padding-right: 4px;   
     position: fixed;
     z-index: 1;
-    }
+}
     .title-title{
     position: absolute;
-    margin-top: 230px; 
+    margin-top: 100px; 
     margin-left: 400px;
     font-family: Berlin Sans FB;
     background-color: white;
@@ -184,21 +184,19 @@ ul {
     padding: 30px;
     opacity: 0.5;
     box-shadow: 6px 6px  rgb(90, 195, 226);
-    }
+}
     .column, .column1, .column2  {
     width: 22%;
     display: inline-block;
     margin: 10px;
     font-family: Berlin Sans FB;
      font-size: 20px;
-    } 
+} 
 .menu{
     visibility: visible;
 }
   .menu1{
       visibility: hidden;
-
-  }
-  
-  }
+}
+}
 
