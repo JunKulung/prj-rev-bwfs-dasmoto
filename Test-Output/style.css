@@ -1,4 +1,4 @@
-body, html, footer, header {
+*{
     margin: 0;
     padding: 0;
     border: 0;   
@@ -11,12 +11,6 @@ header {
     margin: 0;
     box-shadow: 0 3px 9px 0 rgba(0, 0, 0, 0.6);
 }
-header h1 {
-    padding-top: 40px;
-    font-family: Tempus Sans ITC;
-    margin: auto;
-    color: rgb(15, 137, 141);
-}
 header li{
     text-decoration: none;
     list-style: none;
@@ -26,6 +20,12 @@ header li{
 }
 header ul {
     padding: 15px;
+}
+h1 {
+    font-family: Tempus Sans ITC;
+    margin: auto;
+    color: rgb(15, 137, 141);
+    padding-top: 40px;
 }
 
 /*Subheadline*/
@@ -38,6 +38,10 @@ header ul {
     margin: 0 auto;
     padding: 20px;
 }
+.subheadline span{
+    font-style: italic;
+    font-weight: bold;
+}
 .subheadline h2 {
     text-align: center;
     font-family: Tempus Sans ITC;
@@ -49,12 +53,14 @@ header ul {
     float: right;
     border: 4px solid rgb(252, 252, 252);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+     margin: 10px 20px;
 }
-
 /*Footer*/
 footer {
-    padding: 25px;
     text-align: center;
-    box-shadow: 0 3px 9px 7px rgba(0, 0, 0, 0.6);
-    background-color: rgb(217, 248, 240);   
+    background-color: rgb(217, 248, 240);  
+    box-shadow: 0 0 9px 3px rgba(0, 0, 0, 0.6); 
+}
+footer p {
+    padding: 20px;
 }
