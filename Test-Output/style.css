@@ -1,0 +1,60 @@
+body, html, footer, header {
+    margin: 0;
+    padding: 0;
+    border: 0;   
+}
+
+/*Headline*/
+header {
+    text-align: center;
+    background-color: rgb(217, 248, 240);
+    margin: 0;
+    box-shadow: 0 3px 9px 0 rgba(0, 0, 0, 0.6);
+}
+header h1 {
+    padding-top: 40px;
+    font-family: Tempus Sans ITC;
+    margin: auto;
+    color: rgb(15, 137, 141);
+}
+header li{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    font-family: Arial;
+    font-size: 13px;
+}
+header ul {
+    padding: 15px;
+}
+
+/*Subheadline*/
+.subhead {
+    font-family: Georgia;
+}
+.subheadline {
+    width: 700px;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+}
+.subheadline h2 {
+    text-align: center;
+    font-family: Tempus Sans ITC;
+    color: rgb(15, 137, 141);
+}
+.subheadline img {
+    width: 200px;
+    height: 160px;
+    float: right;
+    border: 4px solid rgb(252, 252, 252);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+}
+
+/*Footer*/
+footer {
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 3px 9px 7px rgba(0, 0, 0, 0.6);
+    background-color: rgb(217, 248, 240);   
+}
