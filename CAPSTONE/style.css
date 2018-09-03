@@ -1,0 +1,345 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+/*header*/
+
+header {
+    width: 100%;
+    border-bottom: solid 1px #c6c1c1;
+    background-color: white;
+    height: 70px ;
+    font-family: 'Sintony', sans-serif;
+}
+header .content {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;   
+ }
+header img {
+    margin-left: 24px;
+    width: 40px;   
+}
+header .logo {
+    flex: 1;
+    font-size: 26px;
+    text-decoration: none;
+    color:  #4a4a4a;
+}
+header nav ul {
+    display: flex;
+    margin-right: 24px;
+}
+nav li {
+    padding: 16px;
+    list-style: none;
+} 
+ nav a {
+    vertical-align: bottom;
+    font-size: 1rem;
+    color: #4a4a4a;
+    text-decoration: none;
+    position: relative;
+}
+nav a:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    border-bottom: 2px solid #4a4a4a;
+    transition: 0.4s;  
+}
+nav a:hover:after {
+    width: 100%;
+}
+header .icon {
+    width: 1rem;
+    padding-left: .75rem;
+}
+header .mobile {
+    display: none;
+
+/*firstbanner*/
+}
+.banner img {
+    width: 60%;
+    height: auto;      
+    margin-top: 24px;
+    margin-left: 24px;
+    margin-right: 40px;
+    float: left;
+}    
+.banner {
+    background-color: #9e9b9b6e;
+    text-align: center;
+}
+.banner p {
+    font-size: 32px;
+    font-family: 'Sintony', sans-serif;
+    font-weight: bold;
+    padding-top: 16%;
+    padding-bottom: 16%;
+    text-align: center;
+    padding-right: 30px;
+}
+.banner span {
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    padding-right: 50px; 
+}
+.btn {
+    padding: 10px 60px;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    color: black;
+    background-color: #c7c0c06e;
+    transition-duration: 0.4s;
+    border: 2px solid black;
+    border-radius: 2px;
+    font-weight: bold;              
+}
+.btn:hover {
+    color: rgb(252, 252, 252);
+    background-color: rgb(17, 17, 17);
+    cursor: pointer;
+}     
+
+/*secondbanner*/
+.banner-second img {
+    width: 60%;
+    height: auto;
+    margin: 24px 0 24px 24px;
+    float: left;
+}
+.banner-second span {
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    padding-right: 50px;   
+}
+.row {
+    position: relative;    
+}
+.row img {
+    float: left;
+    width: 13%;
+    height: auto;
+    margin-right: 15px; 
+}
+.row h1 {
+    font-size: 25px;
+    font-family: 'Sintony', sans-serif;
+    font-weight: bold;
+    padding-top: 50px; 
+    color: #2e2d2d;
+}
+.row p {
+       font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    color: #2e2d2d;
+    padding-bottom: 100px; 
+}    
+.row h2 {
+    margin-top: -190px;
+    top: 10px;
+    float: left;
+    margin-left: 24px; 
+    width: 700px;
+    font-family: 'Sintony', sans-serif;
+    font-size: 40px;
+}
+.row a {
+    text-decoration: none;
+    position: relative;
+    color: #3366FF;
+}
+.row a:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    border-bottom: 2px solid #3366FF;
+    transition: 0.4s;
+}   
+.row a:hover:after {
+    width: 100%;
+}
+
+ /*Gallery*/
+.gallery {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    background-color: #c7c0c06e;
+    width: 1331px;
+}
+.row1 {
+    margin: 8px -16px;
+}
+.row1 h1 {
+    padding: 20px;
+}
+.row1,
+.row1 > .column1 {
+    padding: 8px;
+}
+.column1 {
+    display: inline-block;
+    width: 25%;
+}
+.row1:after {
+    content: "";
+    display: table;
+    clear: both;    
+}
+
+    /*Description of the image */
+.content1   {
+    background-color: white;
+    padding: 10px;
+}
+.content1 h3 {
+    padding: 10px; 
+}
+.content1 p {
+    font-family: 'Sintony', sans-serif;
+    text-align: center;
+    margin: 0%;
+}
+
+
+/*Thesis Exhibit*/  
+.exhibit {
+    text-align: center;
+    font-family: 'Sintony', sans-serif;
+    color: #4a4a4a;
+}
+.exhibit h1 {
+    padding: 32px;
+}
+.exhibit video{
+    width: 60%;
+    float: left;
+    padding: 0 24px 24px 24px;
+}
+.exhibit img {
+    float: left;
+    width: 15%;
+    margin-right: 20px;  
+}
+.exhibit h2, p {
+    text-align: left;
+}
+.exhibit h2 {
+    padding: 20px;
+}
+.exhibit p {
+    padding-bottom: 100px;
+}
+.video-description {
+    margin-top: 50px;
+}
+.video-description h1, p {
+    margin-left: 24px;
+    font-family: 'Sintony', sans-serif;
+    font-weight: bold;
+}
+.video-description h1 {
+    padding: 10px;
+}
+.video-description p {
+    padding-bottom: 32px;
+}
+/*Footer*/
+
+footer h5 {
+    font-family: 'lato', sans-serif;
+    float: left;
+    padding: 30px;
+    width: 1280px;
+    border: 1px solid black;
+    
+}
+footer p {
+    float: right;
+}
+    /*Media*/
+@media only screen and (max-width: 760px) {
+    /*Hide the navbar*/
+    header .desktop {
+        display: none;
+    }
+
+    .banner img {
+        width: 738px;
+        margin: 0% 0% 30px;
+    }
+    .banner p {
+        padding-bottom: 25px   ;
+    }
+    header .mobile {
+        display: block;
+        width: 100%;
+    }
+    header .content {
+        padding: .5rem 0;
+    }
+    header .mobile ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+    }
+    header .mobile li {
+        padding: 0;
+    }
+    .column1 {
+        width: 90%;
+        float: left;
+        margin-left: 30px;
+    }
+    .gallery {
+        width: auto;
+        background-color: white;
+    }
+    /*Hide the Image*/
+    .content1 img {
+        display: none;
+    }
+    .content1 {
+        background-color: #afa9a9;
+    }
+    /*Hide the Paragraph*/
+    .content1 p {
+        display: none;
+    }
+    .content1 h3 {
+        padding: 10px;
+        text-align: left;
+    }
+    .row img {
+        display: none;
+    }
+    .row h1 {
+        display: none;
+    }
+    .row p {
+        display: none;
+    }
+    .row h2 {
+        display: none;
+    }
+    .banner-second img{
+        width: 695px;
+    }
+    .picture img, h2, p {
+        display: none;
+    }
+    .video {
+        width:  700px;
+        margin-left: 120px;
+    }
+    .video-description h1, p {
+        display: none;
+    }
+}
