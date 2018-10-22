@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+   <title></title>
+   <head>
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>  
+   <body>
+      <div class="col-lg-8 leftside">
+         <h1>INTERNSHIP LOGO | </h1>
+         <h3>What is Lorem Ipsum</h3>
+         <p>  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in </p>
+         <h4>Neque porro quisquam</h4>
+         <li>Sed ut perspiciatis unde omnis </li>
+         <li>Ut enim ad minima veniam</li>
+         <li>dolorem ipsum quia dolor sit amet</li>
+         <li>Ut enim ad minima veniam</li>
+         <h4>Neque porro quisquam</h4>
+         <li>Sed ut  </li>
+         <li>dolorem ipsum </li>
+         <li>Ut enim ad </li>
+         <h4>Neque porro quisquam</h4>
+         <li>Sed ut perspiciatis unde omnis </li>
+         <li>Ut enim ad minima veniam</li>
+         <li>dolorem ipsum quia dolor sit amet</li>
+         <li>Ut enim ad minima veniam</li>
+      </div>
+      <div class="col-lg-4 rightside">
+         <h1>ALREADY HAVE AN ACCOUNT?</h1>
+         <hr>
+         <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+            <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3 " placeholder="Username">
+         </div>
+         <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+            <input id="password" type="password" placeholder="Password"class="form-control" >
+         </div>
+         <div class="show-hide">
+            <a href="#" id="s-h-pass">Show password</a>
+         </div>
+         <button>LOGIN</button>
+         <h2>NEW TO THIS?</h2>
+         <p>Sign up now to learn more!</p>
+         <button class="signup">CONTACT US ON HOW!</button>
+      </div>
+      </div>
+      <script>
+         $( document ).ready(function() {
+         $('#s-h-pass').click(function(){
+         var type = $('#password').attr('type') == "text" ? "password" : 'text',
+         c = $(this).text() == "Hide password" ? "Show password" : "Hide password";
+         $(this).text(c);
+         $('#password').prop('type', type);
+         });
+         });
+      </script> 
+    </body>
+</html>
