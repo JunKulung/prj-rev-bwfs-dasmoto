@@ -5,8 +5,33 @@
 	padding: 0;
 }
 
+.navbar-default {
+	background-color: #54575c;
+	border-color: #54575c;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #44c8ba;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #fbfdff;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+	background-color: #44c8ba;
+	color: white;
+}
+
+nav {
+	font-size: 13px;
+	font-family: 'Chivo', sans-serif;
+}
+
 .first {
-	margin-top: 11%;
+	margin-top: 8%;
 	z-index: -1;
 }
 
